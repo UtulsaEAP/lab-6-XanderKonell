@@ -1,3 +1,5 @@
+#Name: Xander Konell
+#Hour: 3
 def check_palindrome(user_input):
  #type your code here
     input_str = user_input.replace(" ", "").lower()

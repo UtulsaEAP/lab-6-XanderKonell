@@ -1,3 +1,5 @@
+#Name: Xander Konell
+#Hour: 3
 def filter_and_print_range(input_list, min_val, max_val):
     #write your code here
     filtered_numbers = [num for num in input_list if min_val <= num <= max_val]

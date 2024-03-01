@@ -1,3 +1,5 @@
+#Name: Xander Konell
+#Hour: 3
 def in_order(nums):
     for i in range(1, len(nums)):
         if nums[i] < nums[i - 1]:

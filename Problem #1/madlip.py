@@ -1,3 +1,5 @@
+#Name: Xander Konell
+#Hour: 3
 def food_input():
     #type you while  loop here
     while True:

@@ -1,3 +1,5 @@
+#Name: Xander Konell
+#Hour: 3
 def calculate_car_wash_price(service_1, service_2):
     prices = {
         "Base car wash": 10,
