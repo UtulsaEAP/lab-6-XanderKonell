@@ -2,7 +2,7 @@ def filter_and_print_range(input_list, min_val, max_val):
     #write your code here
     filtered_numbers = [num for num in input_list if min_val <= num <= max_val]
     output = ','.join(map(str, filtered_numbers)) + ','
-    print(output)
+    print(output, end='')
 if __name__ == '__main__':
     # Get input for the list of integers
     user_input = input("Enter a space-separated string of numbers: ")
@@ -13,4 +13,4 @@ if __name__ == '__main__':
     min_val, max_val = map(int, user_input.split())
 
     # Call the function to filter and print the numbers in the given range
-   
+    filter_and_print_range(integer_list, min_val, max_val)
